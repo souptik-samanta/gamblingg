@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import image from "./img/roulette-wheel.png"; // roulette wheel image
 
 interface RouletteWheelProps {
   segments: string[]; // nuumbers
@@ -41,8 +41,8 @@ const RouletteWheel: React.FC<RouletteWheelProps> = ({ segments, onResult }) => 
         }}
       >
         <img
-          src=".img\roulette-wheel.png" 
-          alt="Roulette Wheel"
+          src={image} 
+          alt=""
           className="roulette-image"
         />
       </div>
