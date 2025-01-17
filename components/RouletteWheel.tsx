@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import image from "./img/roulette-wheel.png"; // roulette wheel image
+import image from "./../img/roulette-wheel.png"; // roulette wheel image
 
 interface RouletteWheelProps {
   segments: string[]; // nuumbers
